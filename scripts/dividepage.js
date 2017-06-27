@@ -9,6 +9,9 @@ $(document).ready(function() {
         $('.coder-container').animate({
             opacity: .3
         }, 500);
+         $(".designerpopout-text-box").animate ({
+            left: 346
+        }, 500);
     });
 
     $('.coder-container').mouseenter(function() {
@@ -17,6 +20,10 @@ $(document).ready(function() {
         }, 500);
         $('.coder-container').animate({
             opacity: 1
+        }, 500);
+        
+        $(".coderpopout-text-box").animate ({
+            left: 1200
         }, 500);
     });
 
@@ -28,6 +35,12 @@ $(document).ready(function() {
         $('.designer-container').animate({
             opacity: 1
         }, 1);
+        $(".coderpopout-text-box").animate ({
+            left: 800
+        }, 500);
+           $(".designerpopout-text-box").animate ({
+            left: 800
+        }, 500);
     });
 
 

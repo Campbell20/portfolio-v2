@@ -9,13 +9,15 @@
     background-color: black;
     color: white;
     font-size: 1.6rem;
+    
 }
 
 .site-nav-centeringbox {
-    
     display:flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    
+    
 }
 
 .site-nav-toplogo {
@@ -26,19 +28,15 @@
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
-    background-image: url("../images/tiger-shark-hover.png");
+    font-size: 2.5rem;
+    font-family: 'Ruthie', cursive;
+    // background-image: url("../images/tiger-shark-hover.png");
     background-size: contain;
     height: 5.5rem;
     width: 9.0rem;
+    
 }
 
-.site-nav-toplogo:hover {
-    background-size: contain;
-    height: 5.5rem;
-    width: 9.0rem;
-    background-image: url("../images/tiger-shark.png");
-}
 .site-nav {
     position:absolute;
     top:2rem;
