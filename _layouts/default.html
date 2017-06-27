@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=.5, user-scalable=yes">
+    <link rel="stylesheet" href="{{ site.github.url }}/css/main.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+</head>
+ 
+<body>
+    {% include nav.html %}
+    {{ content }}
+    {% include about.html %}
+    {% include footer.html %}
+</body>
+</html>

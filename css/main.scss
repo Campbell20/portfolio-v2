@@ -1,0 +1,91 @@
+--- 
+---
+/* CSS Styles are defined below */
+
+@import "normalize";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import "nav";
+@import "footer";
+@import "media-queries";
+
+.face-centering-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    background-repeat: no-repeat;
+    background-image: url("../images/lower-coder.png");
+    background-position-y: 430px;
+    background-position-x: 658px;
+}
+
+
+.faceimageanimcation-container {
+    width:65%;
+    height: 740px;
+    // overflow: hidden;
+    display: flex;
+}
+
+.designer-container {
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    opacity: 1;
+    background-image: url("../images/cartoon-john.png");
+    background-size: initial;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    text-align:right;
+}
+
+.coder-container {
+    width: 50%;
+    height: auto;
+    z-index: 1;
+    opacity: 1;
+    background-image: url("../images/realistic-john.png");
+    background-size: initial;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.coder-container:hover {
+    width: 90%;
+    -webkit-transition: width 500ms ease-in-out;
+    -moz-transition: width 500ms ease-in-out;
+    transition: width 500ms ease-in-out;
+}
+
+.designer-container:hover {
+    width: 90%;
+    -webkit-transition: width 500ms ease-in-out;
+    -moz-transition: width 500ms ease-in-out;
+    transition: width 500ms ease-in-out;
+}
+
+.designercodertext-box {
+    display: flex;
+    justify-cotent: center;
+    height: auto;
+    // background-color: orange;
+}
+
+
+.lower-coder-box{
+    height: 310px;
+    width: 17.5%;
+    position: initial;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-image: url("../images/lower-coder.png");
+    background-position-y: 400px;
+
+}
+
+// .coder-container:hover:after + .lower-coder-box{
+//     left:750px;
+//     transition: width 500ms ease-in-out ease-in-out;
+// }
