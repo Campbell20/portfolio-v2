@@ -1,51 +1,39 @@
 /* Responsive Navigation Styles */
 
-.site-nav-container{
-    
+.site-nav-container {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
-    font-size: 1.6rem;
-    
+    // font-size: 1.6rem;
 }
 
 .site-nav-centeringbox {
-    display:flex;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    
-    
 }
 
 .site-nav-toplogo {
-    margin-top: 5px;
-    margin-right: 100px;
-    display:flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
-    align-items: center;
+   position: absolute;
+    top: 8px;
+    left: 101px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-family: 'Ruthie', cursive;
-    // background-image: url("../images/tiger-shark-hover.png");
-    background-size: contain;
-    height: 5.5rem;
-    width: 9.0rem;
-    
+    text-shadow: -4px 7px 8px #fe3c20;
 }
 
 .site-nav {
-    position:absolute;
-    top:2rem;
-    right:1rem;
-    background-color:white;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    background-color: white;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
     text-align: right;
-   
 }
 
 .site-nav .menu-icon {
@@ -55,13 +43,11 @@
     height: 26px;
     padding-top: 10px;
     text-align: center;
-    
 }
 
 .site-nav .trigger {
     clear: both;
     display: none;
-     font-size: 2.0rem;
 }
 
 .site-nav:hover .trigger {

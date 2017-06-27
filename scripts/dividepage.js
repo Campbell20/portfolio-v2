@@ -6,7 +6,13 @@ $(document).ready(function() {
         $('.designer-container').animate({
             opacity: 1
         }, 500);
+        $('.designer-text-box').animate({
+            opacity: 1
+        }, 500);
         $('.coder-container').animate({
+            opacity: .3
+        }, 500);
+            $('.coder-text-box').animate({
             opacity: .3
         }, 500);
          $(".designerpopout-text-box").animate ({
@@ -18,7 +24,14 @@ $(document).ready(function() {
         $('.designer-container').animate({
             opacity: .3
         }, 500);
+        $('.designer-text-box').animate({
+            opacity: .3
+        }, 500);
+       
         $('.coder-container').animate({
+            opacity: 1
+        }, 500);
+        $('.coder-text-box').animate({
             opacity: 1
         }, 500);
         
@@ -32,6 +45,12 @@ $(document).ready(function() {
         $('.coder-container').animate({
             opacity: 1
         }, 1);
+        $('.coder-text-box').animate({
+            opacity: 1
+        }, 500);
+         $('.designer-text-box').animate({
+            opacity: 1
+        }, 500);
         $('.designer-container').animate({
             opacity: 1
         }, 1);
@@ -42,6 +61,7 @@ $(document).ready(function() {
             left: 800
         }, 500);
     });
+    
 
 
     //  $('.designer-container').mouseout(function() {
