@@ -5,20 +5,61 @@ footer{
     align-items: center;
 }
 
-.footer-toggle {
+.footer-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    background-color: crimson;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    background-color: lightgray;
 }
 
-.site-footer-container{
+.footer-copyright {
+    font-family: arial;
+    font-size: .5rem;
+    color: black;
+    margin-right: 50px;
+}
+
+.trigger {
     display: flex;
+    align-items: center;
+}
+
+.page-link {
+    margin-left: 20px;
+}
+
+footer a {
+    color: black;
+    font-family: arial;
+    font-size: .5rem;
+    text-decoration: none;
+}
+
+
+.socialmedia-icon-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     justify-content: center;
-    align-items:flex-end;
-    height:auto;
-    width: 100%;
-    background-color: orange;
+    color: black;
+    
+}
+
+.socialmedia-icon {
+    display:flex;
+    align-items: center;
+    margin-right: .2rem;
+    font-size: 3.6rem;
+    color: black;
+}
+
+.socialmedia-icon:last-child {
+    margin-right:0;
+}
+
+
+
+.socialmedia-icon a {
+    font-size: 1.6rem;
 }
