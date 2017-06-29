@@ -112,3 +112,47 @@
     font-weight: bolder;
     text-shadow: -3px 4px 0px lightgrey;
 }
+
+
+.website-examples-container {
+    font-family: arial;
+    font-size: 1rem;
+    background-color: #e7e7e7;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+.website-examples-container p {
+    font-family: arial;
+    font-size: .8rem;
+    color: grey;
+}
+
+.website-examples-container img {
+    // height: 25%;
+    width: 50%;
+}
+
+.website-examples {
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.example-text {
+    font-family: arial;
+    font-size: .5rem;
+    text-align: left;
+}
+
+.example-container img {
+    border-radius: 5px;
+    border: 2px solid black;
+    opacity: .7;
+}
+
+.example-container img:hover {
+    opacity: 1;
+}

@@ -3,6 +3,7 @@ footer{
     justify-content: center;
     flex-flow: column nowrap;
     align-items: center;
+    z-index: 999999;
 }
 
 .footer-container{
@@ -62,4 +63,13 @@ footer a {
 
 .socialmedia-icon a {
     font-size: 1.6rem;
+}
+
+footer a:hover {
+    color: #fe3c20;
+    font-weight: bolder;
+}
+
+footer a:active {
+   color: #0087c6;
 }
