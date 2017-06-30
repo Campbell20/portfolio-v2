@@ -1,6 +1,13 @@
 /* Responsive Navigation Styles */
 
 
+
+.mobile-nav-container {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+}
+
 .site-nav-container {
     position: fixed;
     top:-1px;
@@ -31,8 +38,27 @@
     text-shadow: -4px 7px 8px #fe3c20;
 }
 
+
+.site-nav-toplogo-620px {
+    position: fixed;
+    top: 15px;
+    left: 31px;
+    text-align: center;
+    font-family: 'Ruthie', cursive;
+    text-shadow: -4px 7px 8px #fe3c20;
+}
+
+
+.site-nav-toplogo-620px a {
+    font-family: 'Ruthie', cursive;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
 .site-nav-toplogo a {
     font-family: 'Ruthie', cursive;
+      font-size: 1.4rem;
     text-decoration: none;
     color: white;
 }
@@ -66,6 +92,7 @@
     display: none;
 }
 
+
 .site-nav:hover .trigger {
     display: block;
     padding-bottom: 5px;
@@ -76,6 +103,7 @@
     display: block;
     padding: 5px 10px;
     margin-left: 20px;
+    font-size: 1rem;
 }
 
 .site-nav .page-link:hover {

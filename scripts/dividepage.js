@@ -13,9 +13,9 @@ $(document).ready(function() {
             $('.coder-text-box').animate({
             opacity: .3
         }, 500);
-         $(".designerpopout-text-box").animate ({
-            left: 346
-        }, 500);
+        //  $(".designerpopout-text-box").animate ({
+        //     left: 346
+        // }, 500);
           $(".designerpopout-text-box").animate ({
             opacity: 1
         }, 20);
@@ -36,9 +36,9 @@ $(document).ready(function() {
             opacity: 1
         }, 500);
         
-        $(".coderpopout-text-box").animate ({
-            left: 1200
-        }, 500);
+        // $(".coderpopout-text-box").animate ({
+        //     left: 1200
+        // }, 500);
              $(".coderpopout-text-box").animate ({
             opacity: 1
         }, 20);
@@ -64,12 +64,12 @@ $(document).ready(function() {
          $(".designerpopout-text-box").animate ({
             opacity: 0
         }, 20);
-        $(".coderpopout-text-box").animate ({
-            left: 800
-        }, 500);
-           $(".designerpopout-text-box").animate ({
-            left: 800
-        }, 500);
+        // $(".coderpopout-text-box").animate ({
+        //     left: 800
+        // }, 500);
+        //   $(".designerpopout-text-box").animate ({
+        //     left: 800
+        // }, 500);
     });
     
 
